@@ -1,17 +1,12 @@
 language: node_js
 node_js:
 - "9"
-
-deploy:
-  provider: script
-  script: "cp .npmrc.template $HOME/.npmrc && npm publish"
-  skip_cleanup: true
-  on:
-    tags: true
-
+before_script:
+  - npm install mocha chai --save-dev
+  - npm install request --save-dev
 notifications:
   email:
     recipients:
-    - julio@packagecloud.io
+    - iyer.j@husky.neu.edu
     on_success: change
     on_failure: always
