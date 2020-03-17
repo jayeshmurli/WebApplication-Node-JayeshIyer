@@ -5,7 +5,7 @@ before_install: cd backend
 before_script:
   - npm install mocha chai
   - npm install request
-  - npm start  
+  - npm start & 
 notifications:
   email:
     recipients:
