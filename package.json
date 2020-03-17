@@ -1,0 +1,19 @@
+{
+  "name": "webapp-backend",
+  "version": "1.0.0",
+  "description": "Backend application",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayeshmurli/WebApplication-Node-JayeshIyer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayeshmurli/WebApplication-Node-JayeshIyer/issues"
+  },
+  "homepage": "https://github.com/jayeshmurli/WebApplication-Node-JayeshIyer#readme"
+}

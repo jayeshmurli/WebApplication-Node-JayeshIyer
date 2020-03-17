@@ -1,0 +1,21 @@
+{
+  "name": "webapp-frontend",
+  "version": "1.0.0",
+  "description": "Web Application Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Jayesh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0",
+    "request": "^2.88.2"
+  }
+}
