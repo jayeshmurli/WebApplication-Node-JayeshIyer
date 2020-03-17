@@ -3,8 +3,8 @@ node_js:
 - "9"
 before_install: cd backend
 before_script:
-  - npm install mocha chai --save-dev
-  - npm install request --save-dev
+  - npm install mocha chai
+  - npm install request
 notifications:
   email:
     recipients:
