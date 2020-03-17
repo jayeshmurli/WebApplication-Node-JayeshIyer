@@ -9,6 +9,8 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 app.set('views', __dirname);
 
+
+//Rendering html page on access
 app.get('/', function(req, res){
     res.render('./views/index.html');
 });

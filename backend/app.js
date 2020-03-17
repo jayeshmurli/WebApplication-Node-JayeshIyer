@@ -5,6 +5,7 @@ var app = express()
 
 //Define request response in root URL (/)
 app.get('/data', function (req, res) {
+    //Defining new data object with current time
     let datetime = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '');
     console.log(datetime);
     res.set('Access-Control-Allow-Origin', '*');
